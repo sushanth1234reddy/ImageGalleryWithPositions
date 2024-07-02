@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery Using Positions</title>
+    <style>
+        div{
+            position: relative;
+        }
+        .i1,.i2,.i3,.i4,.i5,.i6,.i7,.i8,.i9{
+            position: absolute;
+        }
+        .i2{
+            left: 101px;
+        }
+        .i3{
+            left: 201px;
+        }
+        .i5{
+            top: 100px;
+        }
+        .i6{
+            top: 100px;
+            left: 101px;
+        }
+        .i7{
+            top: 100px;
+            left: 201px;
+        }
+        .i4{
+            top: 200px;
+        }
+        .i8{
+            top: 200px;
+            left: 101px;
+        }
+        .i9{
+            top: 200px;
+            left: 201px;
+        }
+        .hiro{
+            position: absolute;
+            z-index: 1;
+            top: 35px;
+            left: 25px;
+            color: white;
+            font-weight: bolder;
+        }
+        .mom{
+            position: absolute;
+            z-index: 1;
+            color: white;
+            font-weight: bolder;
+            top: 35px;
+            left: 130px;
+        }
+      .shin{
+        position: absolute;
+        z-index: 1;
+        color: white;
+        font-weight: bolder;
+        top: 35px;
+        left: 220px;
+      }
+      .mas{
+        position: absolute;
+        z-index: 1;
+        color: white;
+        font-weight: bolder;
+        top: 160px;
+        left: 25px;
+      }
+      .kaz{
+        position: absolute;
+        z-index: 1;
+        color: white;
+        font-weight: bolder;
+        top: 260px;
+        left: 25px;
+
+      }
+      .bo{
+        position: absolute;
+        z-index: 1;
+        color: white;
+        font-weight: bolder;
+        top: 160px;
+        left: 125px;
+
+      }
+      .shin2{
+        position: absolute;
+        z-index: 1;
+        color: white;
+        font-weight: bolder;
+        top: 160px;
+        left: 225px;
+
+      }
+      .mas2{
+        position: absolute;
+        z-index: 1;
+        color: white;
+        font-weight: bolder;
+        top: 260px;
+        left: 125px;
+      }
+      .kaz2{
+        position: absolute;
+        z-index: 1;
+        color: white;
+        font-weight: bolder;
+        top: 260px;
+        left: 225px;
+      }
+      h2{
+        position: absolute;
+        font-size: 50px;
+        top: 80px;
+        left: 50px;
+        color: gold;
+        background-color: rgb(122, 122, 141);
+        opacity: 0.7;
+        transform: rotate(-45deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+        <span class="hiro">Hiroshi</span>
+    <img class="i1" src="hiroshi-nohara.jpg" height="100px" width="100px" alt="" />
+    <span class="mom">Misae</span>
+     <img class="i2" src="misae-nohara.jpg" height="100px" width="100px" alt="" />
+     <span class="shin">Shinchan</span>
+      <img class="i3" src="shinchan.jpeg" height="100px" width="100px" alt="" />
+      <span class="kaz" >kazama</span>
+
+      <img class="i4" src="tooru-kazama.jpg" height="100px" width="100px" alt="" />
+      <span class="mas">Masao</span>
+     <img class="i5" src="masao.jpeg" height="100px" width="100px" alt="" />
+     <span class="bo">bo chan</span>
+      <img class="i6" src="bo.jpg" height="100px" width="100px" alt="" />
+      <span class="shin2">Shinchan</span>
+      <img class="i7" src="shinchan.jpeg" height="100px" width="100px" alt="" />
+      <span class="mas2">Masao</span>
+     <img class="i8" src="masao.jpeg" height="100px" width="100px" alt="" />
+     <span class="kaz2"> kazama</span>
+      <img class="i9" src="tooru-kazama.jpg" height="100px" width="100px" alt="" />
+    </div>
+    <h2>kazukabe</h2>
+  </body>
+</html>
